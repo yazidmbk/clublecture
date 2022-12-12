@@ -1,0 +1,19 @@
+html,
+body,
+
+header{
+
+
+
+}
+body{
+
+    text-align: center;
+    horiz-align: center;
+    background: url('../images/home.jpg');
+    background-size: cover;
+    color: #fff;
+
+
+
+}

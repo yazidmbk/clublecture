@@ -1,0 +1,37 @@
+{%  extends 'base.html.twig' %}
+
+{%  block title %} Home  {% endblock %}
+
+{% block body %}
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Connexion">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="tablivre">Tableau Livre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="tablecteurs">Tableau Lecteurs</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <body>
+    <h1>Bienvenue</h1>
+    <h4>Besoin de temps pour lire . Rejoignez notre club de lecture</h4>
+
+    </body>
+
+{% endblock %}
