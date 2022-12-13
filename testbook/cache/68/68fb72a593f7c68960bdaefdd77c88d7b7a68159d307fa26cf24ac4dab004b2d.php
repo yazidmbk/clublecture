@@ -180,6 +180,6 @@ class __TwigTemplate_4c3cb3aad46dfbfe4415e33483c2aea474012e0ffe3702125dbd5419e42
 
     public function getSourceContext()
     {
-        return new Source("", "lecteur.html.twig", "C:\\wamp64\\www\\testbook\\public\\template\\Lecteur.html.twig");
+        return new Source("", "lecteur.html.twig", "D:\\GitHub\\clublecture\\testbook\\public\\template\\Lecteur.html.twig");
     }
 }

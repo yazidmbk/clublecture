@@ -46,6 +46,7 @@ $app->get('/Home', \controleur\BackControleur::class . ':Home');
 $app->get('/Connexion', \controleur\BackControleur::class . ':Connexion');
 $app->get('/tablivre', \controleur\BackControleur::class . ':TabLivre');
 $app->get('/tablecteurs', \controleur\BackControleur::class . ':TabLecteurs');
+ // $app->get('/addlecteur', \controleur\BackControleur::class . ':crudlecteur');
 
 
 
