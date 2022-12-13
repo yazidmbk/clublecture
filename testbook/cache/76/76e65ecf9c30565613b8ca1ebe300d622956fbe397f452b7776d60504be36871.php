@@ -67,12 +67,7 @@ class __TwigTemplate_7258b1d3e12a5677558d899d0fba5e9a5306502ad006a5372d35df3e57f
                         <li class=\"nav-item\">
                             <a class=\"nav-link active\" aria-current=\"page\" href=\"Connexion\">Login</a>
                         </li>
-                        <li class=\"nav-item\">
-                            <a class=\"nav-link active\" aria-current=\"page\" href=\"tablivre\">Tableau Livre</a>
-                        </li>
-                        <li class=\"nav-item\">
-                            <a class=\"nav-link active\" aria-current=\"page\" href=\"tablecteurs\">Tableau Lecteurs</a>
-                        </li>
+
 
                     </ul>
                 </div>

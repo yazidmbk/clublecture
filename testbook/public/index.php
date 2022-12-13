@@ -35,7 +35,7 @@ $app->get('/hello/{nom}', function (Request $request, Response $response, array 
 });
 
 $app->get('/lecteurs', \controleur\ApiControleur::class . ':getAllLecteur');
-$app->get('/livres', \controleur\ApiControleur::class . ':getAllLivres');
+$app->get('/livres', \controleur\ApiControleur::class . ':getLivres');
 $app->get('/rand', \controleur\ApiControleur::class. ':findRandom');
 $app->get('/lelue', \controleur\ApiControleur::class. ':LeLecteur');
 

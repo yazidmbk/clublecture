@@ -1,6 +1,6 @@
 $('#BTN_Login').click(function (){
     const adress = "http://172.31.254.144:8099/";
-    const url = "Home";
+    const url = "";
     let login = $('#TB_Login').val();
     let password = $('#TB_Mdp').val();
 

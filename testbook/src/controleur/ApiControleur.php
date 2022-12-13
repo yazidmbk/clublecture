@@ -30,11 +30,11 @@ class ApiControleur
             ->withHeader('Content-Type', 'application/json');
     }
 
-    public function getAllLivres(ServerRequestInterface  $request, ResponseInterface  $response, array $args): ResponseInterface{
+    public function getLivres(ServerRequestInterface  $request, ResponseInterface  $response, array $args): ResponseInterface{
         $em = $this->container->get('doctrine');
-
+        $allGetVars = $request->getQueryParams();
         $livreRepository = $em->getRepository('Livre');
-        $livres = $livreRepository->findBy(array(), array('titre'=>'asc'));
+        $livres = $livreRepository->findBy($allGetVars, array('titre'=>'asc'));
         $playload = json_encode($livres);
 
         $response->getBody()->write($playload);
